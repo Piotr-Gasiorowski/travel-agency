@@ -52,11 +52,11 @@ class App extends React.Component {
             <Route exact path='/trips' component={Trips} />
             {/* TODO - add more routes for other views */}
             <Route exact path='/info' component={Info} />
-            <Route path='*' component={NotFound} />
             <Route exact path='/Countries' component={Countries} />
             <Route exact path='/Regions' component={Regions} />
             <Route exact path='/trip/:id' component={Trip} />
             <Route exact path='/country/:id' component={Country} />
+            <Route path='*' component={NotFound} />
           </AnimatedSwitch>
         </MainLayout>
       </BrowserRouter>
