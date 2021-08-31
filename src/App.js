@@ -50,7 +50,6 @@ class App extends React.Component {
           >
             <Route exact path='/' component={Home} />
             <Route exact path='/trips' component={Trips} />
-            {/* TODO - add more routes for other views */}
             <Route exact path='/info' component={Info} />
             <Route exact path='/Countries' component={Countries} />
             <Route exact path='/Regions' component={Regions} />
